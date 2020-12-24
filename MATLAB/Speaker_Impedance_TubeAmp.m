@@ -9,7 +9,7 @@
 %    This code is used to determine the appropriate impedance value
 % (e.g. 2 ohm, 4 ohm, 8 ohm, 16 ohm) for a speaker given information 
 % about the input and output voltage of the output transformer and 
-% the plate impedance of the power tube. 
+% the effective load resistance of the power tube. 
 % ----------------------------------------------------------------------
 
 %Data/init:
