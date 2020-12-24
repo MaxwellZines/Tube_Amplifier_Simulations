@@ -3,8 +3,6 @@
 % by Method of Impedance Ratio
 %
 % Written by Maxwell Zines
-% Undergraduate Student of Mathematics 
-% University of Tulsa
 % Written 24/12/2020
 % Revision No. 1.0.0
 %
