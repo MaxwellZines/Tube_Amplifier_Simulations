@@ -10,6 +10,10 @@ This repository will host utilities, written in a variety of languages, to aid i
   - RC_LowPass_OrderOne
     - Script to determine the output voltage of a simple RC low-pass filter at a specific frequency.
     - Also gives information about frequency cutoff of the input circuit.
+  - RC_BandPass_CapacitorCalc
+    - Script to determine capacitor values given desirec cutoff frequencies and resistor values.
+    - Also determines resonant frequency of the circuit.
+    - For use with order-two RC passive bandpass filters.
     
 # Important notes:
   - MIPS .asm files were written and compiled in the MARS compiler. They use syscall functions that may be unique to the MARS environment and may not work in other compiler.
