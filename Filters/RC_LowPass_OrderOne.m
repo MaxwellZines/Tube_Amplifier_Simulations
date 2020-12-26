@@ -5,7 +5,7 @@
 % Written 26/12/2020
 % Revision No. 1.0.0
 %
-%    This code, whe given values for resistance and capacitance in
+%    This code, when given values for resistance and capacitance in
 % an RC Low-Pass filter, will give the output of the filter at the
 % specified frequency. It will also calculate the cutoff frequency
 % of the filter.
