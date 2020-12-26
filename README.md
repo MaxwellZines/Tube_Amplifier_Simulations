@@ -1,17 +1,15 @@
 # Tube_Amplifier_Simulations
 This repository will host utilities, written in a variety of languages, to aid in the development of vacuum tube amplifier circuits. 
 
-# Software included in the MATLAB file:
-- Speaker_Impedance_TubeAmp.m
-  - A script that generates recommended speaker impedance given appropriate information about the power tube and output amplifier.
-  - Similar to the equivalent .asm file, but more comprehensive. This version will generate a text output, "Recommended: n Ohm speaker" based on a switching inequality function. Will also indicate if the impedance does not closely match a common speaker impedance. 
-  - Last updated 24/12/2020
-
-# Software included in the R file:
-- NONE yet!
-
-# Software included in the MIPS file:
-- Speaker_Impedance_TubeAmp.asm
-  - A script that generates recommended speaker impedance given appropriate information about the power tube and output amplifier.
-  - Similar to equivalent .m file, but less comprehensive.
-  - Last updated 24/12/2020
+- Speakers
+  - Speaker_Impedance_TubeAmp
+    - Script to determine desired speaker impedance based on information about the output tube and transformer
+    - Available in .m (MATLAB) and .asm (MIPS_Assembly). MATLAB version is significantly more comprehensive.
+   
+- Filters
+  - RC_LowPass_OrderOne
+    - Script to determine the output voltage of a simple RC low-pass filter at a specific frequency.
+    - Also gives information about frequency cutoff of the input circuit.
+    
+# Important notes:
+  - MIPS .asm files were written and compiled in the MARS compiler. They use syscall functions that may be unique to the MARS environment and may not work in other compiler.
